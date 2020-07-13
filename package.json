@@ -1,0 +1,36 @@
+{
+  "name": "airbnb-backend",
+  "version": "1.0.0",
+  "description": "Backend for Airbnb clone written in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maharshi Rawal",
+  "license": "ISC",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.1",
+    "cookie-parser": "^1.4.5",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.24",
+    "morgan": "^1.10.0",
+    "qs": "^6.9.4",
+    "slugg": "^1.2.1",
+    "validator": "^13.1.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "supertest": "^4.0.2"
+  }
+}
