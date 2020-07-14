@@ -50,11 +50,12 @@ app.use(function (req, res, next) {
 
 //Import Routes
 const indexRouter = require('./routes/indexRouter');
+const userRouter = require('./routes/userRouter');
 
 
 //Use Routes
 app.use('/', indexRouter);
-// app.use('/user', userRouter);
+app.use('/user', userRouter);
 
 
 //Catch 404 and fwd to error handler
