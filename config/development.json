@@ -1,0 +1,7 @@
+{
+    "mongo": {
+        "url": "mongodb://localhost/airbnb-clone"
+    },
+    "morgan": "dev",
+    "winston": "debug"
+}
