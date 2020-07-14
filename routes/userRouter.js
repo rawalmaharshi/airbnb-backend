@@ -5,6 +5,6 @@ const express = require('express'),
   userController = require('../lib/controllers/userController'),
   authentication = require('../lib/tools/authentication');  //will add later
 
-router.get('/getOrCreate', userController.getOrCreateUser);
+router.post('/getOrCreate', userController.getOrCreateUser);
 
 module.exports = router;

@@ -46,8 +46,6 @@ app.use(function (req, res, next) {
   next();
 });
 
-
-
 //Import Routes
 const indexRouter = require('./routes/indexRouter');
 const userRouter = require('./routes/userRouter');
@@ -64,7 +62,6 @@ app.use(function (req, res, next) {
   delete err.stack;
   next(err);
 });
-
 
 //Error handler
 app.use(function (err, req, res, next) {
