@@ -27,7 +27,7 @@
     "morgan": "^1.10.0",
     "qs": "^6.9.4",
     "slugg": "^1.2.1",
-    "validator": "^13.1.1",
+    "validator": "^13.7.0",
     "winston": "^3.3.3"
   },
   "devDependencies": {
